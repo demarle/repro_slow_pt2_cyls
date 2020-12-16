@@ -1,0 +1,6 @@
+ddemarle@ddemarle-desk:~/source/OSPRay/v2.4/vtkedges/build$ ./viewEdges -RC ~/Desktop/edges.vtp
+READ 40401 80400 160800
+RENDERTIME TIME 33
+ddemarle@ddemarle-desk:~/source/OSPRay/v2.4/vtkedges/build$ ./viewEdges -PT ~/Desktop/edges.vtp
+READ 40401 80400 160800
+RENDERTIME TIME 60

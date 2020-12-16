@@ -1,0 +1,133 @@
+Total: 51 samples
+       6  11.8%  11.8%        6  11.8% __GI___sched_yield
+       5   9.8%  21.6%        5   9.8% Curves_intersect_kernel___UM_un_3C_s_5B__c_unRTCIntersectFunctionNArguments_5D__3E_Cunbavx512skx
+       3   5.9%  27.5%       12  23.5% SciVis_renderSample___un_3C_s_5B_unRenderer_5D__3E_un_3C_s_5B_unFrameBuffer_5D__3E_un_3C_s_5B_unWorld_5D__3E_un_3C_unv_3E_REFs_5B_vyScreenSample_5D_avx512skx
+       3   5.9%  33.3%        3   5.9% __GI___libc_write
+       3   5.9%  39.2%        9  17.6% embree::avx512skx::BVHNIntersectorKHybrid::intersect
+       3   5.9%  45.1%        3   5.9% std::istream::sentry::sentry
+       2   3.9%  49.0%        2   3.9% LocalFrameBuffer_writeTile_SRGBA_avx512skx
+       2   3.9%  52.9%        2   3.9% Renderer_default_renderTile___UM_un_3C_s_5B_unRenderer_5D__3E_un_3C_s_5B_unFrameBuffer_5D__3E_un_3C_s_5B_unCamera_5D__3E_un_3C_s_5B_unWorld_5D__3E_un_3C_unv_3E_REFs_5B_unTile_5D_uniavx512skx
+       2   3.9%  56.9%        2   3.9% _INTERNALb80e72b9::__TBB_machine_pause (inline)
+       2   3.9%  60.8%        4   7.8% embree::avx::GeneralBVHBuilder::BuilderT::recurse
+       2   3.9%  64.7%        2   3.9% embree::avx::HeuristicArrayBinningSAH::find
+       2   3.9%  68.6%        2   3.9% normal_updatePosition
+       2   3.9%  72.5%        2   3.9% std::num_get::_M_extract_float
+       2   3.9%  76.5%        2   3.9% tbb::internal::generic_scheduler::steal_task
+       2   3.9%  80.4%        5   9.8% writePPM
+       1   2.0%  82.4%        1   2.0% LocalFrameBuffer_accumulateTile_avx512skx
+       1   2.0%  84.3%        1   2.0% __brk
+       1   2.0%  86.3%        1   2.0% __gnu_cxx::new_allocator::construct (inline)
+       1   2.0%  88.2%        1   2.0% catch_hook
+       1   2.0%  90.2%        1   2.0% checked_request2size
+       1   2.0%  92.2%        9  17.6% embree::avx512skx::InstanceIntersectorK::intersect
+       1   2.0%  94.1%        1   2.0% embree::avx512skx::UserGeometryISA::createPrimRefArray
+       1   2.0%  96.1%        1   2.0% std::num_put::_M_pad
+       1   2.0%  98.0%        1   2.0% str_to_mpn.isra.0
+       1   2.0% 100.0%        3   5.9% vtkXMLDataParser::ParseBuffer
+       0   0.0% 100.0%        1   2.0% 0x3e9999993e999998
+       0   0.0% 100.0%        1   2.0% 0x3f4ccccc3e999998
+       0   0.0% 100.0%        1   2.0% AtomicBackoff::pause (inline)
+       0   0.0% 100.0%        3   5.9% MallocMutex::scoped_lock::scoped_lock (inline)
+       0   0.0% 100.0%        2   3.9% Renderer_renderTile
+       0   0.0% 100.0%        3   5.9% _IO_new_file_write
+       0   0.0% 100.0%        3   5.9% _IO_new_file_xsputn
+       0   0.0% 100.0%        3   5.9% __GI__IO_fwrite
+       0   0.0% 100.0%        2   3.9% __GI_____strtof_l_internal
+       0   0.0% 100.0%       12  23.5% __GI___clone
+       0   0.0% 100.0%        1   2.0% __GI___default_morecore
+       0   0.0% 100.0%        1   2.0% __GI___sbrk
+       0   0.0% 100.0%        3   5.9% __TBB_LockByte (inline)
+       0   0.0% 100.0%       22  43.1% __libc_start_main
+       0   0.0% 100.0%        1   2.0% _int_free
+       0   0.0% 100.0%       22  43.1% _start
+       0   0.0% 100.0%        3   5.9% embree::AccelInstance::build
+       0   0.0% 100.0%        3   5.9% embree::AccelN::accels_build
+       0   0.0% 100.0%        3   5.9% embree::Scene::commit
+       0   0.0% 100.0%        3   5.9% embree::Scene::commit_task
+       0   0.0% 100.0%        3   5.9% embree::avx::BVHNBuilderSAH::build
+       0   0.0% 100.0%        2   3.9% embree::avx::BVHNBuilderVirtual::BVHNBuilderV::build
+       0   0.0% 100.0%        2   3.9% embree::avx::GeneralBVHBuilder::build
+       0   0.0% 100.0%        1   2.0% embree::avx::createPrimRefArray
+       0   0.0% 100.0%        2   3.9% int ::vtkXMLDataReaderReadArrayValues
+       0   0.0% 100.0%        2   3.9% long long* vtkXMLParseAsciiData
+       0   0.0% 100.0%       22  43.1% main
+       0   0.0% 100.0%        3   5.9% new_do_write
+       0   0.0% 100.0%        1   2.0% operator new
+       0   0.0% 100.0%        3   5.9% ospCommit
+       0   0.0% 100.0%        3   5.9% ospray::Group::commit
+       0   0.0% 100.0%        3   5.9% ospray::api::ISPCDevice::commit
+       0   0.0% 100.0%        1   2.0% rml::internal::Backend::askMemFromOS
+       0   0.0% 100.0%        1   2.0% rml::internal::Backend::genericGetBlock
+       0   0.0% 100.0%        1   2.0% rml::internal::BackendSync::waitTillBlockReleased (inline)
+       0   0.0% 100.0%        4   7.8% rml::internal::BootStrapBlocks::allocate
+       0   0.0% 100.0%        1   2.0% rml::internal::MemoryPool::getEmptyBlock
+       0   0.0% 100.0%        4   7.8% rml::internal::MemoryPool::getTLS (inline)
+       0   0.0% 100.0%        4   7.8% rml::internal::TLSKey::createTLS
+       0   0.0% 100.0%        4   7.8% rml::internal::allocateAligned (inline)
+       0   0.0% 100.0%        4   7.8% rml::internal::internalPoolMalloc
+       0   0.0% 100.0%        3   5.9% rtcCommitScene
+       0   0.0% 100.0%        9  17.6% rtcIntersect16
+       0   0.0% 100.0%        4   7.8% scalable_aligned_malloc
+       0   0.0% 100.0%       12  23.5% start_thread
+       0   0.0% 100.0%        2   3.9% std::__convert_to_v
+       0   0.0% 100.0%        1   2.0% std::allocator_traits::construct (inline)
+       0   0.0% 100.0%        9  17.6% std::istream::_M_extract
+       0   0.0% 100.0%        9  17.6% std::istream::operator>> (inline)
+       0   0.0% 100.0%        1   2.0% std::num_get::_M_extract_int
+       0   0.0% 100.0%        5   9.8% std::num_get::do_get
+       0   0.0% 100.0%        1   2.0% std::string::_Rep::_M_clone
+       0   0.0% 100.0%        1   2.0% std::string::_Rep::_S_create
+       0   0.0% 100.0%        1   2.0% std::string::reserve
+       0   0.0% 100.0%        1   2.0% std::vector::push_back
+       0   0.0% 100.0%        1   2.0% systrim.isra.0.constprop.0
+       0   0.0% 100.0%        3   5.9% tbb::interface7::internal::isolate_within_arena
+       0   0.0% 100.0%        4   7.8% tbb::interface9::internal::dynamic_grainsize_mode::work_balance
+       0   0.0% 100.0%        5   9.8% tbb::interface9::internal::start_for::execute
+       0   0.0% 100.0%        4   7.8% tbb::internal::NFS_Allocate
+       0   0.0% 100.0%        4   7.8% tbb::internal::allocate_scheduler (inline)
+       0   0.0% 100.0%        8  15.7% tbb::internal::arena::process
+       0   0.0% 100.0%        2   3.9% tbb::internal::atomic_backoff::bounded_pause (inline)
+       0   0.0% 100.0%        4   7.8% tbb::internal::atomic_backoff::pause (inline)
+       0   0.0% 100.0%        4   7.8% tbb::internal::custom_scheduler::allocate_scheduler
+       0   0.0% 100.0%       11  21.6% tbb::internal::custom_scheduler::local_wait_for_all
+       0   0.0% 100.0%        5   9.8% tbb::internal::custom_scheduler::process_bypass_loop (inline)
+       0   0.0% 100.0%        6  11.8% tbb::internal::custom_scheduler::receive_or_steal_task
+       0   0.0% 100.0%        3   5.9% tbb::internal::function_task::execute
+       0   0.0% 100.0%        4   7.8% tbb::internal::generic_scheduler::create_worker
+       0   0.0% 100.0%        3   5.9% tbb::internal::generic_scheduler::local_spawn_root_and_wait
+       0   0.0% 100.0%        4   7.8% tbb::internal::market::create_one_job
+       0   0.0% 100.0%        8  15.7% tbb::internal::market::process
+       0   0.0% 100.0%        2   3.9% tbb::internal::prolonged_pause (inline)
+       0   0.0% 100.0%       12  23.5% tbb::internal::rml::private_worker::run
+       0   0.0% 100.0%       12  23.5% tbb::internal::rml::private_worker::thread_routine
+       0   0.0% 100.0%        3   5.9% tbb::internal::wait_delegate::operator
+       0   0.0% 100.0%       10  19.6% vtkCompositeDataPipeline::ExecuteData
+       0   0.0% 100.0%       10  19.6% vtkDemandDrivenPipeline::ExecuteData
+       0   0.0% 100.0%       13  25.5% vtkDemandDrivenPipeline::ProcessRequest
+       0   0.0% 100.0%       10  19.6% vtkDemandDrivenPipeline::UpdateData
+       0   0.0% 100.0%       13  25.5% vtkExecutive::CallAlgorithm
+       0   0.0% 100.0%        3   5.9% vtkStreamingDemandDrivenPipeline::ExecuteInformation
+       0   0.0% 100.0%       13  25.5% vtkStreamingDemandDrivenPipeline::ProcessRequest
+       0   0.0% 100.0%       13  25.5% vtkStreamingDemandDrivenPipeline::Update
+       0   0.0% 100.0%        3   5.9% vtkXMLDataParser::Parse
+       0   0.0% 100.0%       10  19.6% vtkXMLDataParser::ParseAsciiData
+       0   0.0% 100.0%        1   2.0% vtkXMLDataParser::ParseAsciiData (inline)
+       0   0.0% 100.0%       10  19.6% vtkXMLDataParser::ReadAsciiData
+       0   0.0% 100.0%        6  11.8% vtkXMLDataReader::ReadPieceData
+       0   0.0% 100.0%        7  13.7% vtkXMLParseAsciiData (inline)
+       0   0.0% 100.0%        3   5.9% vtkXMLParser::Parse
+       0   0.0% 100.0%        2   3.9% vtkXMLParser::ParseBuffer
+       0   0.0% 100.0%        3   5.9% vtkXMLParser::ParseXML
+       0   0.0% 100.0%       10  19.6% vtkXMLPolyDataReader::ReadPieceData
+       0   0.0% 100.0%       13  25.5% vtkXMLReader::ProcessRequest
+       0   0.0% 100.0%       10  19.6% vtkXMLReader::ReadArrayValues
+       0   0.0% 100.0%        8  15.7% vtkXMLReader::ReadArrayValues (inline)
+       0   0.0% 100.0%        3   5.9% vtkXMLReader::ReadXMLInformation
+       0   0.0% 100.0%       10  19.6% vtkXMLReader::RequestData
+       0   0.0% 100.0%        3   5.9% vtkXMLReader::RequestInformation
+       0   0.0% 100.0%        8  15.7% vtkXMLUnstructuredDataReader::ReadArrayForPoints
+       0   0.0% 100.0%        2   3.9% vtkXMLUnstructuredDataReader::ReadCellArray
+       0   0.0% 100.0%        8  15.7% vtkXMLUnstructuredDataReader::ReadPieceData
+       0   0.0% 100.0%       10  19.6% vtkXMLUnstructuredDataReader::ReadXMLData
+       0   0.0% 100.0%        2   3.9% vtkexpat_XML_ParseBuffer
+       0   0.0% 100.0%        2   3.9% vtkexpat_XML_ParseBuffer (inline)
